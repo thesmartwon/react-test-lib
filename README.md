@@ -1,8 +1,8 @@
 # react-test-lib-9000
 
-> please don&#x27;t use this
+> please don&#x27;t use this. just another example react lib
 
-[![NPM](https://img.shields.io/npm/v/react-test-lib-9000.svg)](https://www.npmjs.com/package/react-test-lib-9000) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/thesmartwon/react-test-lib-9000.svg?branch=master)](https://travis-ci.org/thesmartwon/react-test-lib-9000) [![NPM](https://img.shields.io/npm/v/react-test-lib-9000.svg)](https://www.npmjs.com/package/react-test-lib-9000) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
