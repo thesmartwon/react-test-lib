@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - 8
   - 9
 
 install:
@@ -16,10 +17,8 @@ deploy:
     github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
     on:
       branch: master
-  - provider: npm
+  - provider: script
     skip-cleanup: true
-    keep-history: true
-    email: thesmartwon@live.com
-    api_key: $NPM_TOKEN # Set in travis-ci.org dashboard, marked secure
-    on:
-      branch: master
+    script:
+      # - nvm install lts/*
+      - npx semantic-release
