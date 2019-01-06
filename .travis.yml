@@ -17,6 +17,8 @@ deploy:
     on:
       branch: master
   - provider: npm
+    skip-cleanup: true
+    keep-history: true
     email: thesmartwon@live.com
     api_key: $NPM_TOKEN # Set in travis-ci.org dashboard, marked secure
     on:
