@@ -21,3 +21,5 @@ deploy:
     script:
       # - nvm install lts/*
       - npx semantic-release
+    on:
+      branch: master
