@@ -1,6 +1,6 @@
 {
-  "short_name": "react-test-lib-9000",
-  "name": "react-test-lib-9000",
+  "short_name": "react-test-lib",
+  "name": "react-test-lib",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

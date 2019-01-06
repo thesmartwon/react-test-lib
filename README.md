@@ -1,13 +1,13 @@
-# react-test-lib-9000
+# react-test-lib
 
 > please don&#x27;t use this. just another example react lib
 
-[![Build Status](https://travis-ci.org/thesmartwon/react-test-lib-9000.svg?branch=master)](https://travis-ci.org/thesmartwon/react-test-lib-9000) [![NPM](https://img.shields.io/npm/v/react-test-lib-9000.svg)](https://www.npmjs.com/package/react-test-lib-9000) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/thesmartwon/react-test-lib.svg?branch=master)](https://travis-ci.org/thesmartwon/react-test-lib) [![NPM](https://img.shields.io/npm/v/react-test-lib.svg)](https://www.npmjs.com/package/react-test-lib) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-test-lib-9000
+npm install --save react-test-lib
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-test-lib-9000
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-test-lib-9000'
+import MyComponent from 'react-test-lib'
 
 class Example extends Component {
   render () {
