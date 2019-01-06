@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-test-lib-9000'
+import ExampleComponent from 'react-test-lib'
 
 export default class App extends Component {
   render () {

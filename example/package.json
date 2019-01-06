@@ -1,6 +1,6 @@
 {
-  "name": "react-test-lib-9000-example",
-  "homepage": "https://thesmartwon.github.io/react-test-lib-9000",
+  "name": "react-test-lib-example",
+  "homepage": "https://thesmartwon.github.io/react-test-lib",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "react-test-lib-9000": "file:.."
+    "react-test-lib": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
