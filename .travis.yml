@@ -11,14 +11,15 @@ script:
 
 deploy:
   - provider: script
-    skip-cleanup: true
     script:
-      - npm run deploy
+      - npx semantic-release
+    github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
     on:
       branch: master
   - provider: script
+    skip-cleanup: true
     script:
-      - npx semantic-release
+      - npm run deploy
     github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
     on:
       branch: master
